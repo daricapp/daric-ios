@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F07B22771CE5B145005F877A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07B22761CE5B145005F877A /* AppDelegate.swift */; };
+		F07B22791CE5B145005F877A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07B22781CE5B145005F877A /* ViewController.swift */; };
+		F07B227C1CE5B145005F877A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F07B227A1CE5B145005F877A /* Main.storyboard */; };
+		F07B227F1CE5B145005F877A /* daric.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F07B227D1CE5B145005F877A /* daric.xcdatamodeld */; };
+		F07B22811CE5B145005F877A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F07B22801CE5B145005F877A /* Assets.xcassets */; };
+		F07B22841CE5B145005F877A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F07B22821CE5B145005F877A /* LaunchScreen.storyboard */; };
+		F07B228F1CE5B145005F877A /* daricTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07B228E1CE5B145005F877A /* daricTests.swift */; };
+		F07B229A1CE5B145005F877A /* daricUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07B22991CE5B145005F877A /* daricUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F07B228B1CE5B145005F877A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F07B226B1CE5B144005F877A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F07B22721CE5B144005F877A;
+			remoteInfo = daric;
+		};
+		F07B22961CE5B145005F877A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F07B226B1CE5B144005F877A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F07B22721CE5B144005F877A;
+			remoteInfo = daric;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F07B22731CE5B145005F877A /* daric.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = daric.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07B22761CE5B145005F877A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F07B22781CE5B145005F877A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F07B227B1CE5B145005F877A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F07B227E1CE5B145005F877A /* daric.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = daric.xcdatamodel; sourceTree = "<group>"; };
+		F07B22801CE5B145005F877A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F07B22831CE5B145005F877A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F07B22851CE5B145005F877A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F07B228A1CE5B145005F877A /* daricTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = daricTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07B228E1CE5B145005F877A /* daricTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = daricTests.swift; sourceTree = "<group>"; };
+		F07B22901CE5B145005F877A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F07B22951CE5B145005F877A /* daricUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = daricUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07B22991CE5B145005F877A /* daricUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = daricUITests.swift; sourceTree = "<group>"; };
+		F07B229B1CE5B145005F877A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F07B22701CE5B144005F877A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07B22871CE5B145005F877A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07B22921CE5B145005F877A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F07B226A1CE5B144005F877A = {
+			isa = PBXGroup;
+			children = (
+				F07B22751CE5B145005F877A /* daric */,
+				F07B228D1CE5B145005F877A /* daricTests */,
+				F07B22981CE5B145005F877A /* daricUITests */,
+				F07B22741CE5B145005F877A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F07B22741CE5B145005F877A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F07B22731CE5B145005F877A /* daric.app */,
+				F07B228A1CE5B145005F877A /* daricTests.xctest */,
+				F07B22951CE5B145005F877A /* daricUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F07B22751CE5B145005F877A /* daric */ = {
+			isa = PBXGroup;
+			children = (
+				F07B22761CE5B145005F877A /* AppDelegate.swift */,
+				F07B22781CE5B145005F877A /* ViewController.swift */,
+				F07B227A1CE5B145005F877A /* Main.storyboard */,
+				F07B22801CE5B145005F877A /* Assets.xcassets */,
+				F07B22821CE5B145005F877A /* LaunchScreen.storyboard */,
+				F07B22851CE5B145005F877A /* Info.plist */,
+				F07B227D1CE5B145005F877A /* daric.xcdatamodeld */,
+			);
+			path = daric;
+			sourceTree = "<group>";
+		};
+		F07B228D1CE5B145005F877A /* daricTests */ = {
+			isa = PBXGroup;
+			children = (
+				F07B228E1CE5B145005F877A /* daricTests.swift */,
+				F07B22901CE5B145005F877A /* Info.plist */,
+			);
+			path = daricTests;
+			sourceTree = "<group>";
+		};
+		F07B22981CE5B145005F877A /* daricUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F07B22991CE5B145005F877A /* daricUITests.swift */,
+				F07B229B1CE5B145005F877A /* Info.plist */,
+			);
+			path = daricUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F07B22721CE5B144005F877A /* daric */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F07B229E1CE5B145005F877A /* Build configuration list for PBXNativeTarget "daric" */;
+			buildPhases = (
+				F07B226F1CE5B144005F877A /* Sources */,
+				F07B22701CE5B144005F877A /* Frameworks */,
+				F07B22711CE5B144005F877A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = daric;
+			productName = daric;
+			productReference = F07B22731CE5B145005F877A /* daric.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F07B22891CE5B145005F877A /* daricTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F07B22A11CE5B145005F877A /* Build configuration list for PBXNativeTarget "daricTests" */;
+			buildPhases = (
+				F07B22861CE5B145005F877A /* Sources */,
+				F07B22871CE5B145005F877A /* Frameworks */,
+				F07B22881CE5B145005F877A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F07B228C1CE5B145005F877A /* PBXTargetDependency */,
+			);
+			name = daricTests;
+			productName = daricTests;
+			productReference = F07B228A1CE5B145005F877A /* daricTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F07B22941CE5B145005F877A /* daricUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F07B22A41CE5B145005F877A /* Build configuration list for PBXNativeTarget "daricUITests" */;
+			buildPhases = (
+				F07B22911CE5B145005F877A /* Sources */,
+				F07B22921CE5B145005F877A /* Frameworks */,
+				F07B22931CE5B145005F877A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F07B22971CE5B145005F877A /* PBXTargetDependency */,
+			);
+			name = daricUITests;
+			productName = daricUITests;
+			productReference = F07B22951CE5B145005F877A /* daricUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F07B226B1CE5B144005F877A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mojgan;
+				TargetAttributes = {
+					F07B22721CE5B144005F877A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F07B22891CE5B145005F877A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F07B22721CE5B144005F877A;
+					};
+					F07B22941CE5B145005F877A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F07B22721CE5B144005F877A;
+					};
+				};
+			};
+			buildConfigurationList = F07B226E1CE5B144005F877A /* Build configuration list for PBXProject "daric" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F07B226A1CE5B144005F877A;
+			productRefGroup = F07B22741CE5B145005F877A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F07B22721CE5B144005F877A /* daric */,
+				F07B22891CE5B145005F877A /* daricTests */,
+				F07B22941CE5B145005F877A /* daricUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F07B22711CE5B144005F877A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07B22841CE5B145005F877A /* LaunchScreen.storyboard in Resources */,
+				F07B22811CE5B145005F877A /* Assets.xcassets in Resources */,
+				F07B227C1CE5B145005F877A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07B22881CE5B145005F877A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07B22931CE5B145005F877A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F07B226F1CE5B144005F877A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07B227F1CE5B145005F877A /* daric.xcdatamodeld in Sources */,
+				F07B22791CE5B145005F877A /* ViewController.swift in Sources */,
+				F07B22771CE5B145005F877A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07B22861CE5B145005F877A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07B228F1CE5B145005F877A /* daricTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07B22911CE5B145005F877A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07B229A1CE5B145005F877A /* daricUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F07B228C1CE5B145005F877A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F07B22721CE5B144005F877A /* daric */;
+			targetProxy = F07B228B1CE5B145005F877A /* PBXContainerItemProxy */;
+		};
+		F07B22971CE5B145005F877A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F07B22721CE5B144005F877A /* daric */;
+			targetProxy = F07B22961CE5B145005F877A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F07B227A1CE5B145005F877A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F07B227B1CE5B145005F877A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F07B22821CE5B145005F877A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F07B22831CE5B145005F877A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F07B229C1CE5B145005F877A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F07B229D1CE5B145005F877A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F07B229F1CE5B145005F877A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = daric/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daric-ios.daric";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F07B22A01CE5B145005F877A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = daric/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daric-ios.daric";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F07B22A21CE5B145005F877A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = daricTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daric-ios.daricTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/daric.app/daric";
+			};
+			name = Debug;
+		};
+		F07B22A31CE5B145005F877A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = daricTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daric-ios.daricTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/daric.app/daric";
+			};
+			name = Release;
+		};
+		F07B22A51CE5B145005F877A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = daricUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daric-ios.daricUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = daric;
+			};
+			name = Debug;
+		};
+		F07B22A61CE5B145005F877A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = daricUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daric-ios.daricUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = daric;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F07B226E1CE5B144005F877A /* Build configuration list for PBXProject "daric" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07B229C1CE5B145005F877A /* Debug */,
+				F07B229D1CE5B145005F877A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F07B229E1CE5B145005F877A /* Build configuration list for PBXNativeTarget "daric" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07B229F1CE5B145005F877A /* Debug */,
+				F07B22A01CE5B145005F877A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F07B22A11CE5B145005F877A /* Build configuration list for PBXNativeTarget "daricTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07B22A21CE5B145005F877A /* Debug */,
+				F07B22A31CE5B145005F877A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F07B22A41CE5B145005F877A /* Build configuration list for PBXNativeTarget "daricUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07B22A51CE5B145005F877A /* Debug */,
+				F07B22A61CE5B145005F877A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F07B227D1CE5B145005F877A /* daric.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F07B227E1CE5B145005F877A /* daric.xcdatamodel */,
+			);
+			currentVersion = F07B227E1CE5B145005F877A /* daric.xcdatamodel */;
+			path = daric.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F07B226B1CE5B144005F877A /* Project object */;
+}
